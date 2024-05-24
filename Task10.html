@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exercise #1 -Login form</title>
+<style>
+ .border-div{ 
+        width: 50%; 
+            border: 2px solid black; 
+            padding: 20px;
+            margin: 0 auto;
+            background-color: yellowgreen;
+    }
+        .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+label {
+  width: 100px; 
+  margin-right: 10px; 
+}
+.div-button{display: flex;
+           justify-content: center;
+            padding: 20px;
+            margin: 20 ;}
+
+
+</style>
+</head>
+<body>
+
+<h1>Registration Form </h1>
+
+<div class="border-div" >
+ 
+    <div class="form-group">
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname" name="firstname">
+      </div>
+      <div class="form-group">
+        <label for="firstname">Last Name</label>
+        <input type="text" id="firstname" name="firstname">
+      </div>
+      <div class="form-group">
+        <label for="lastname">Email address</label>
+        <input type="text" id="lastname" name="lastname">
+      </div>
+      <div class="form-group"><label for="Gender">Gender</label> <input type="radio"> <label for="Male">Male</label>
+        <input type="radio"> <label for="Female">Female</label></div>
+    
+</div>
+
+<div class="border-div"><div><label for="City">City</label><select name="City" >
+    <option value="Amman">Amman</option>
+   
+    </select></div></div>
+<div class="div-button"><button>Subscribe</button></div>
+
+
+</body>
+</html>

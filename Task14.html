@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{background-color: blue;}
+    .inline{display: flex;
+        width: 80%;
+        margin: 0 a;
+    justify-content: space-between;}
+    h1{color: orange;
+    }
+    .header{width: 80%;
+    margin: 0 auto;}
+    .border-div{border: 1px solid white;
+        width: 80%;
+        height: 40px;
+        margin: 0 auto;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .border-div-inline{border: 1px solid white; height: 40px;}
+    p{padding: 20; }
+</style>
+</head>
+<body>
+<div class="header"><h1>Block-Level</h1></div>
+
+
+<div class="border-div"><p>This is a paragraph.</p></div>
+<div class="border-div"><p>This is another paragraph.</p></div>
+<div class="border-div"><p>Paragraphs are block- level elements, so they stack vertically.</p></div>
+
+<div class="header"><h1>Inline</h1></div>
+<div class="inline">
+    <p class="border-div-inline">Links are </p>
+    <p  class="border-div-inline">inline elements</p>
+    <p  class="border-div-inline">so they fit side-by-side.</p>
+</div>
+
+
+
+
+</body>
+</html>
